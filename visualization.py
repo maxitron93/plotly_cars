@@ -10,6 +10,7 @@ df = pd.read_csv('mpg.csv')
 
 # Initialize the app
 app = dash.Dash()
+server = app.server
 
 # Create a list of the columns ['mpg', 'weight', 'hp', etc]
 features = df.columns
