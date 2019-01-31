@@ -44,10 +44,11 @@ def update_graph(xaxis_name, yaxis_name):
                             y=df[yaxis_name],
                             text=df['name'],
                             mode='markers',
-                            marker={'size':15})],
+                            marker={'size':15, 'opacity':0.6, 'line':{'width':0.5, 'color': 'white'}})],
           'layout': go.Layout(title='Comparing Relationships Between Different Car Features',
                               xaxis={'title': xaxis_name},
-                              yaxis={'title': yaxis_name})}
+                              yaxis={'title': yaxis_name},
+                              hovermode='closest')}
 
 if __name__ == '__main__':
   app.run_server()
