@@ -1,7 +1,7 @@
 # Visualization comparing relationships between different car features
 # Built with python, plotly and dash
 ## Interactive chart here: [https://plotly-cars.herokuapp.com/](https://plotly-cars.herokuapp.com/)
-### Follow along project from a [udemy course](https://www.udemy.com/interactive-python-dashboards-with-plotly-and-dash/)
+### Follow along project from an [online course](https://www.udemy.com/interactive-python-dashboards-with-plotly-and-dash/)
 
 #### Python programming concepts used:
 - Extensive use of external python libraries to streamline the chart development process.
